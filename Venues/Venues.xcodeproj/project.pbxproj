@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		825FC9E81BC561C4006A9C68 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825FC9E71BC561C4006A9C68 /* ProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		825FC9EA1BC56464006A9C68 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825FC9E91BC56464006A9C68 /* WebViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		82827C311BC4004C00915FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82827C301BC4004C00915FB9 /* AppDelegate.swift */; };
 		82827C361BC4004C00915FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82827C341BC4004C00915FB9 /* Main.storyboard */; };
 		82827C381BC4004C00915FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82827C371BC4004C00915FB9 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		825FC9E71BC561C4006A9C68 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../../ProfileViewController.swift; sourceTree = "<group>"; };
+		825FC9E91BC56464006A9C68 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		82827C2D1BC4004C00915FB9 /* Venues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82827C301BC4004C00915FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82827C351BC4004C00915FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				82827C441BC421C600915FB9 /* MapViewController.swift */,
 				82827C461BC4634B00915FB9 /* VenuesTableTableViewController.swift */,
 				82827C481BC468C200915FB9 /* Constants.swift */,
+				825FC9E71BC561C4006A9C68 /* ProfileViewController.swift */,
+				825FC9E91BC56464006A9C68 /* WebViewController.swift */,
 			);
 			path = Venues;
 			sourceTree = "<group>";
@@ -144,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825FC9E81BC561C4006A9C68 /* ProfileViewController.swift in Sources */,
 				82827C491BC468C200915FB9 /* Constants.swift in Sources */,
 				82827C471BC4634B00915FB9 /* VenuesTableTableViewController.swift in Sources */,
 				82827C431BC4017000915FB9 /* Foursquare.swift in Sources */,
+				825FC9EA1BC56464006A9C68 /* WebViewController.swift in Sources */,
 				82827C451BC421C600915FB9 /* MapViewController.swift in Sources */,
 				82827C311BC4004C00915FB9 /* AppDelegate.swift in Sources */,
 			);
@@ -298,6 +306,7 @@
 				82827C411BC4004C00915FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
